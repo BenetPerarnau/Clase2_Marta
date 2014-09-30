@@ -14,6 +14,7 @@ import java.util.ArrayList;
 	por consola Nombre y Apellidos, nota media de la persona que cumpla con este requisito.
 	
 	Requisitos no funcionales del programa:
+	
 		 El programa sólo puede contener una Clase. 
 		 El programa debe ser modular
 		 Cada módulo del programa debe disponer de una breve descripción funcional del mismo
