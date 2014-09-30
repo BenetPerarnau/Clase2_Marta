@@ -1,0 +1,6 @@
+Ansorena Hernande Laura;7.8;V;
+Ambros Serrano Sergi;5.4;F;
+Vicente Perez Josafat;6.5;F;
+Sole Heuberger Elisenda;7.1;F;
+Segura Alarcos Ignacio;7.9;V;
+Rueda Martinez Dolores;8.0;F;
