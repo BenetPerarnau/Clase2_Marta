@@ -41,7 +41,7 @@ public class PrincipalEx4 {
 		FileReader fr=null;
 		BufferedReader br=null;
 		try{
-			archivo=new File("/Users/Benet/Documents/workspace2/Clase2_Marta/src/Alumnos.txt");
+			archivo=new File("src/Alumnos.txt");
 			fr=new FileReader(archivo);
 			br=new BufferedReader(fr);
 			
