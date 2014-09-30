@@ -38,6 +38,6 @@ public static void main(String[] args) {
 		System.out.println("Hora del día: "+hoy.getHours());
 		//apartado b
 		System.out.println("Incremento de un mes ala fecha actual: ");
-		System.out.println(calendario.get(Calendar.DAY_OF_MONTH)+"/"+calendario.get(Calendar.MONTH)+"/"+calendario.get(Calendar.YEAR));
+		System.out.println(calendario.get(Calendar.DAY_OF_MONTH)+"/"+(calendario.get(Calendar.MONTH)+2)+"/"+calendario.get(Calendar.YEAR));
 	}
 }
