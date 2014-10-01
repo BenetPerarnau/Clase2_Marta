@@ -25,14 +25,19 @@ public class PrincipalEx2 {
 		input=stdin.readLine();
 		entra=true;
 		}catch(Exception e){
-			System.out.println("Valor fuera de rango");
+			System.out.println("ruta no encontrada");
 			entra=false;
 		}
 		}while(entra==false);
+		try{
 		File dir=new File(input);
 		System.out.println(input);
 		PrincipalEx2.listarDirectorio(dir, "\t");
 		System.out.println("El directorio "+input+" tiene "+cont_d+" directorios i "+cont_f+" ficheros");
+		}catch(Exception e){
+			System.out.println("Fallo en la ruta del direcorio o archivo");
+		}
+		
 	}
 	  
 	public static void listarDirectorio(File f, String separador){
